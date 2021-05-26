@@ -1,0 +1,113 @@
+#title{
+    background-color: rgb(39, 39, 39);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 42px;
+    color: rgb(131, 129, 129);
+    margin-bottom: 20px;
+    padding-left: 10px;
+}
+
+#pacientHead{
+    font-size: 30px;
+    margin-left: 10px;
+
+    
+}
+
+#linha-horizontal{
+    margin-top: 20px;
+    width: 98%;
+    border: 1px solid rgb(202, 202, 202);
+    margin-left: 1%;
+    margin-right: 1%;
+}
+
+#contentForm {
+    justify-content: space-between;
+    margin-left: 10px;
+}
+
+#content {
+    float: left;
+    justify-content: space-between;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 30px;
+    font-weight: bold;
+}
+
+
+input {
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+    height: 18px;
+    width: 300px;
+    border-radius: 7px;
+    border-style: double;
+    border-bottom-width: 1px;
+    border-left-width: 0.1px;
+    border-right-width: 0.1px;
+    border-top-width: 0.1px;
+}
+
+#btnAdd {
+    background-color:rgb(49, 104, 104);
+    color: white;
+    font-weight: bold;
+    margin-left: 10px;
+    margin-top: 5px;
+    width: 160px;
+    height: 40px;
+    border-bottom-style: ridge;
+    border-bottom-color: rgb(2, 2, 17);
+    border-bottom-width: 2px;
+    border-left-width: 0.1px;
+    border-right-width: 0.1px;
+    border-top-width: 0.1px;
+    border-radius: 15px;
+}
+
+#tableHead{
+    font-size: 30px;
+    margin-bottom: 15px;
+    margin-top: 40px;
+}
+
+#tbPacientes {
+    margin-left: 20px;
+    font: 14px Verdana;
+    border-collapse: collapse;
+}
+
+#txtFind{
+    margin-left: 20px;
+    margin-bottom: 15px;
+}
+
+
+table tr td {
+        border-radius: 6px;
+        padding-top: 12px; 
+        float: center;
+        border: 1px solid rgb(113, 117, 130);
+        width: 166px;
+        text-align: center;
+        font-weight: bold;
+        font-size: 12px;
+        height: 30px;
+        color: rgb(28, 36, 43);
+}
+
+label.validation-error {
+    color: red;
+    margin-left: 5px;
+    visibility: hidden;
+}
+
+label.validation-error1 {
+    color: red;
+    margin-left: 5px;
+    visibility: hidden;
+    float: inline-start
+}
